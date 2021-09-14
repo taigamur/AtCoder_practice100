@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// 0916 AC
+
 int main(){
     int n,x;
     while(true){
