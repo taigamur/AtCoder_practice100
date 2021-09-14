@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+//0917 未解決問題　解決
 
 vector<vector<int>> point(N,vector<int>(2));
 

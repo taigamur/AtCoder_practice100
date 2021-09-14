@@ -1,25 +1,36 @@
 #include <iostream>
-#include <set>
+#include <string>
 using namespace std;
 
+// 0917 未解決問題を解決
+
 int main(){
-    int n,s;
+    int n;
+    string s;
     cin >> n;
     cin >> s;
 
 
-    for(int i = 0; i < 1000; i++){
-        int  c[3];
-        int t = i;
-        c[0] = t / 100;
-        c[2] = t % 10;
-        t  = t / 10;
-        c[1] = t % 10;
-
-        int a = 0 , b = 0;
-        while(true){
-            
-            a++;
+    //重複はカウントしないため、手前から見つけた順番で処理して問題ない
+    int ans = 0;
+    for(int i = 0; i < 10; i++){
+        int i_index = s.find(to_string(i));
+        if(i_index == -1){
+            continue;
+        }
+        for(int j = 0; j < 10; j++){
+            int j_index = s.find(to_string(j), i_index + 1);
+            if(j_index == -1){
+                continue;;
+            }
+            for(int k = 0; k < 10; k++){
+                int k_index = s.find(to_string(k), j_index + 1);
+                if(k_index == -1){
+                    continue;
+                }
+                ans++;
+            }
         }
     }
+    cout << ans << endl;
 }
