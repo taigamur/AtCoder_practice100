@@ -2,4 +2,5 @@
 int main(){
 
     cout << "TEST" << endl; 
+    cout << "a" << endl;
 }
