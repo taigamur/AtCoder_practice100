@@ -5,6 +5,9 @@
 using namespace std;
 const long long INF = 1LL << 60;
 
+/*
+1012 AC
+*/
 struct Edge{
     int to;
     long long w;
