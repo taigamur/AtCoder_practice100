@@ -6,14 +6,4 @@ https://qiita.com/e869120/items/eb50fdaece12be418faa#2-3-%E5%88%86%E9%87%8E%E5%8
 
 <br>
 
-2021.07.28 - 09.15 1周目
-<br>
-とりあえず理解できる問題だけ自力 + 解説みて
-
-09.16 - 2周目
-<br>
-理解できなかった問題に取り組む + できるだけ解説を見ずに早く解く
-
-<br>
-
 My AtCoder account -> https://atcoder.jp/users/ttai
